@@ -1,0 +1,25 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+.vite/
+# Local settings and secrets — never publish credentials
+.env
+.env.*
+!.env.example
+*.local
+# Logs
+*.log
+npm-debug.log*
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Private owner material and local QA artifacts
+OWNER-GUIDE*
+START-HERE-PRIVATE*
+UPLOAD-MANIFEST*
+private/
+test-results/
+playwright-report/
